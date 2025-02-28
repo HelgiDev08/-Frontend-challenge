@@ -1,0 +1,31 @@
+p{
+    color: aquamarine;
+    background-color: azure;
+    font-size: 30px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.text{
+    color: violet;
+
+}
+
+#text-id{
+    color: blanchedalmond;
+}
+
+[type= "button"]{
+    width: 100px;
+    height: 50px;
+
+}
+
+.text>span{
+    font-size: 40px;
+}
+
+ body{
+    background-color: blue;
+}
