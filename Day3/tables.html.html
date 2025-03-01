@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .table{
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            border: 1px solid black;
+            border-spacing: 15px;
+            /* border-collapse: separate; */
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border:1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>SKILS</th>
+                <th>STARS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>React</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Angular</td>
+                <td>⭐⭐</td>
+            </tr>
+            <!-- stars from https://symbl.cc/en/search/?q=star -->
+            <tr>
+                <td>3</td>
+                <td>Vue</td>
+                <td>⭐</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td colspan="2">
+                    <img src="https://placehold.co/150x100" alt="">
+                </td>
+                
+            </tr>
+            <!-- placeholder are usefull for image replacement -->
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>-</td>
+                <td colspan="2" rowspan="2">
+                    Do not stop learning!
+                </td>
+            </tr>
+            <tr>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td colspan="3">Just do it!</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
