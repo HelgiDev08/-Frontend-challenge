@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(137, 181, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.header{
+    text-align: center;
+}
+
+.picture{
+    width: 300px;
+    height: 300px;
+}
+
+.header__title {
+    font-size: 25px;
+
+}
+.header__subtitle {
+    color: rgb(255, 255, 255);
+}
+
+.main{
+    border: 1px solid darkcyan;
+    text-align: center;
+
+}
+
+.skills ol{
+    list-style: none;
+}
+
+.separator{
+    width: 50%;
+    height: 3px;
+    background-color:darkcyan;
+}
+
+
+.form_text{
+    color: rgba(255, 0, 0, 0.337);
+}
+.subscribe_button{
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.ed_table{
+    border-collapse:collapse ;
+}
+
+.ed_table th,
+.ed_table td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.quote{
+    font-size: 32px;
+}
+
+.interaction{
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.interaction_control{
+    width: 100%;
+}
+
+.control_text{
+    width: 50%;
+}
+
+.interaction_button{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(113, 178, 198);
+}
