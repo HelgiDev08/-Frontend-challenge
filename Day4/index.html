@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>CV page</title>
+    
+</head>
+<body>
+    <header class="header">
+        <img src="assets/me.png" alt="image" class="picture">
+        <h1 class="header__title">Helgi Dev | CV page</h1>
+        <h3 class="header__subtitle">Frontend Developer</h3>
+    </header>
+
+    <main class="main">
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list:</summary>
+
+                <ol>
+                    <li>1.   HTML</li>
+                    <li>2.   CSS</li>
+                    <li>3.   React</li>
+                    <li>4.   Typescript</li>
+                    <li>5.   C</li>
+                    <li>6.   Java</li>
+                    <li>7.   Python</li>
+                </ol>
+            </details>
+        </section>
+
+        <article>
+            <h4 class="article">Short article about me</h4>
+            <p>Helgi is a computer science student passionate about programming, web development, etc. He is building a YouTube channel to document his coding journey while improving his frontend skills. Interested in automation and client management systems, he enjoys creating innovative projects and exploring new technologies in software development.</p>
+
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <h3>My videos</h3>
+            <iframe width="337" height="599" src="https://www.youtube.com/embed/bG4ni5WxX04" title="Day 3 of my Frontend Challenge: 📋 Tables &amp; 📝 Forms | HTML &amp; CSS Basics 🎨 #frontenddevelopment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="337" height="599" src="https://www.youtube.com/embed/7yxZXzUzlC0" title="🔥 Day 2: Mastering HTML &amp; CSS Essentials! 🚀" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="337" height="599" src="https://www.youtube.com/embed/Bsq9rUGOjxA" title="🚀 Frontend Challenge Day 1 – My First Steps in Web Development!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            
+        </section>
+        <form action="https://www.youtube.com/@HelgiDev" method="get" target="_blank">
+            <h3 class="form_text">SUBSCRIBE IT IS FREE! </h3>
+            <button class="subscribe_button">SUBSCRIBE</button>
+
+        </form>
+
+        <section class="hobbies">
+            <h4>My hobbies</h4>
+            <details>
+                <summary>Hobbies</summary>
+                <ul>
+                    <li>Video Editing</li>
+                    <li>Playing guitar</li>
+                    <li>Reading</li>
+                </ul>
+            </details>
+        </section>
+       
+        <hr class="ed">
+        <section class="Education">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>School /University</th>
+                        <th>Professions</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>IT school</td>
+                        <td>Angular</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>IT school 2</td>
+                        <td>React Dev</td>
+                        <td>2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                "Success is not final, failure is not fatal: it is the courage to continue that counts." – Winston Churchill
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="mailto:devhelgi@gmail.com" method="post" class=" " target="_blank">
+                <fieldset>
+                    
+                        <legend>Required fields: </legend>
+                        <label for="firstName-id">First Name: </label>
+                        <input type="text" name="firstName" id="firstName-id" required class="interaction_control" placeholder="yout first name">
+    
+                        <label for="lastName-id">Last Name: </label>
+                        <input type="text" name="LastName" id="lastName-id" required class="interaction_control" placeholder="your last name">
+    
+                        <label for="email-id">Email:</label>
+                        <input type="email" name="Email" id="email-id" required class="interaction_control " placeholder="your email">
+                </fieldset>
+                <br>
+                <textarea name="" id="" cols="30" rows="7" class="interaction_control control_text" placeholder="your message"></textarea>
+                <br>
+                <button type="submit" class="interaction_button ">Send me a message! </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+            <a href="https://github.com/HelgiDev08" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        
+    </footer>
+</body>
+</html>
