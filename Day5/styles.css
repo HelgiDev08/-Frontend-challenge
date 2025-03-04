@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+.coral-color{
+    background-color: lightcoral;
+}
+
+.green-color{
+    background-color: rgb(32, 159, 92);
+}
+
+.pink-color{
+    background-color: rgb(211, 11, 171);
+}
+
+
+.flex-container{
+    border:2px solid grey;
+    min-height: 800px;
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* column-gap: 30px;
+    row-gap: 30px; */
+    gap: 20px   ;
+    align-content: center;
+}
+
+.flex-child{
+    width: 250px;
+    height: 300px;
+
+    flex-shrink: 0;
+}
+
+.child--1 {
+    order: 1;
+    align-self: center;
+    /* flex-grow:1;
+    flex-shrink: 1;
+    flex-basis: 50%; */
+    flex: 1 0 50%;
+}
+
+.child--2 {
+    order: 2;
+    align-self: center;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis:10%; */
+    flex: 1 0 10%;
+}
+
+.child--3 {
+    order:3;
+    align-self: center;
+    /* flex-grow: 1;
+    flex-shrink:  1;
+    flex-basis: 30%; */
+    flex: 1 0 30%;
+}
