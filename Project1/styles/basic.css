@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--co-white);
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.container{
+    max-width: 1323px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+
+.logo{
+    width: 220px;
+    height: 19px;
+}
